@@ -24,3 +24,11 @@ public class Q08_NestedTryCatch {
         }
     }
 }
+
+/*
+Output:
+Enter array index: 9
+Inner catch: Invalid array index.
+Enter divisor: 0
+Outer catch: Cannot divide by zero.
+*/

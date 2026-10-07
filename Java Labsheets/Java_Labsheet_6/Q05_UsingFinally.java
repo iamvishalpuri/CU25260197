@@ -19,3 +19,11 @@ public class Q05_UsingFinally {
         }
     }
 }
+
+/*
+Output:
+Enter first number: 15
+Enter second number: 0
+Error: Cannot divide by zero.
+Program execution completed.
+*/

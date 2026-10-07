@@ -41,3 +41,12 @@ public class Q15_PharmacyInventorySystem {
         }
     }
 }
+
+/*
+Output:
+Enter medicine name: Amoxicillin
+Enter available quantity: 20
+Enter required quantity: 30
+Error: Required quantity exceeds available stock.
+Inventory transaction completed.
+*/

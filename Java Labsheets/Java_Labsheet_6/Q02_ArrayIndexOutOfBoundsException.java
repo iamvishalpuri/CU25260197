@@ -15,3 +15,9 @@ public class Q02_ArrayIndexOutOfBoundsException {
         }
     }
 }
+
+/*
+Output:
+Enter array index: 8
+Error: Invalid array index.
+*/

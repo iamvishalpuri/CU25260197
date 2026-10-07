@@ -34,3 +34,12 @@ public class Q13_PharmaceuticalDrugDosageValidation {
         }
     }
 }
+
+/*
+Output:
+Enter patient name: Vishal
+Enter drug name: Paracetamol
+Enter dosage in mg: 1500
+Error: Dosage must be between 1 mg and 1000 mg.
+Dosage validation completed.
+*/

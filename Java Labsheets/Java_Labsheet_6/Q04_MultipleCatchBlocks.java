@@ -24,3 +24,10 @@ public class Q04_MultipleCatchBlocks {
         }
     }
 }
+
+/*
+Output:
+Enter first number: 20
+Enter second number: 0
+Error: Cannot divide by zero.
+*/

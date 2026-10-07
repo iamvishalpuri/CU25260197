@@ -31,3 +31,10 @@ public class Q12_HospitalPatientAgeValidation {
         }
     }
 }
+
+/*
+Output:
+Enter patient name: Vishal
+Enter patient age: 145
+Error: Patient age must be between 0 and 120.
+*/

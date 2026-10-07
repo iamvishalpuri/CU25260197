@@ -19,3 +19,9 @@ public class Q06_UsingThrow {
         }
     }
 }
+
+/*
+Output:
+Enter marks: 125
+Error: Marks must be between 0 and 100.
+*/

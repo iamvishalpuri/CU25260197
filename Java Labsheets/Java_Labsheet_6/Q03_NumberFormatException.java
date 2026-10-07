@@ -15,3 +15,9 @@ public class Q03_NumberFormatException {
         }
     }
 }
+
+/*
+Output:
+Enter a number as text: abc
+Error: The entered text is not a valid integer.
+*/

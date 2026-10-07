@@ -31,3 +31,11 @@ public class Q11_BankWithdrawalSystem {
         }
     }
 }
+
+/*
+Output:
+Enter account balance: 5000
+Enter withdrawal amount: 6500
+Error: Insufficient balance for withdrawal.
+Bank transaction completed.
+*/

@@ -20,3 +20,8 @@ public class Q09_ExceptionPropagation {
         }
     }
 }
+
+/*
+Output:
+Exception handled in main: Cannot divide by zero.
+*/

@@ -30,3 +30,10 @@ public class Q14_OnlineExaminationSystem {
         }
     }
 }
+
+/*
+Output:
+Enter student's marks: 35
+Result: FAIL
+Examination result processing completed.
+*/

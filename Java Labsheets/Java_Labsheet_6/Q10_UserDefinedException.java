@@ -29,3 +29,9 @@ public class Q10_UserDefinedException {
         }
     }
 }
+
+/*
+Output:
+Enter marks: -5
+Error: Marks must be within the range 0-100.
+*/

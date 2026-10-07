@@ -23,3 +23,9 @@ public class Q07_UsingThrows {
         }
     }
 }
+
+/*
+Output:
+Enter age: 16
+Error: Age must be at least 18.
+*/

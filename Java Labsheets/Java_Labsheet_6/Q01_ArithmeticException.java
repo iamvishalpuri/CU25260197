@@ -16,3 +16,10 @@ public class Q01_ArithmeticException {
         }
     }
 }
+
+/*
+Output:
+Enter first integer: 10
+Enter second integer: 0
+Error: Cannot divide by zero.
+*/

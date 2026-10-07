@@ -1,0 +1,3 @@
+Enter first number: 20
+Enter second number: 0
+Error: Cannot divide by zero.

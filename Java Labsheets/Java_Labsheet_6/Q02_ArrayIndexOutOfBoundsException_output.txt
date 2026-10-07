@@ -1,0 +1,2 @@
+Enter array index: 8
+Error: Invalid array index.

@@ -1,0 +1,2 @@
+Enter a number as text: abc
+Error: The entered text is not a valid integer.

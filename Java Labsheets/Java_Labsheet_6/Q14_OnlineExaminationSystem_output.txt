@@ -1,0 +1,3 @@
+Enter student's marks: 35
+Result: FAIL
+Examination result processing completed.

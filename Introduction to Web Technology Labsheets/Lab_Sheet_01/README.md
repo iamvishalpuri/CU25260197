@@ -13,7 +13,7 @@
 - **Date:** 7 October 2026
 - **Submitted By:** Vishal Puri
 - **CU ID:** CU25260197
-- **Submitted To:** Mr. Shailendra Thakur
+- **Submitted To:** Mr. Pawan Kumar
 
 ## Topic
 

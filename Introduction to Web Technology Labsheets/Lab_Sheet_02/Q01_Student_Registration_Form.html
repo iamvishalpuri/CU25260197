@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration Form</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #eef4ff; margin: 0; padding: 30px; }
+    .form-container { max-width: 650px; margin: auto; background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px #b7c5dd; }
+    h1 { text-align: center; color: #174a8b; }
+    label { display: block; margin-top: 12px; font-weight: bold; }
+    input, select, textarea { width: 100%; box-sizing: border-box; padding: 9px; margin-top: 5px; border: 1px solid #9aaac1; border-radius: 5px; }
+    .inline { width: auto; margin-right: 6px; }
+    .buttons { text-align: center; margin-top: 20px; }
+    button { padding: 10px 22px; margin: 5px; border: 0; border-radius: 5px; color: white; cursor: pointer; }
+    .submit { background: #176b35; } .reset { background: #9b2c2c; }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h1>Student Registration Form</h1>
+    <form onsubmit="event.preventDefault(); alert('Registration submitted successfully!');">
+      <label for="name">Full Name</label><input id="name" type="text" required>
+      <label for="email">Email</label><input id="email" type="email" required>
+      <label for="mobile">Mobile Number</label><input id="mobile" type="tel" pattern="[0-9]{10}" placeholder="10-digit number" required>
+      <label>Gender</label>
+      <input class="inline" type="radio" name="gender" value="Male" required>Male
+      <input class="inline" type="radio" name="gender" value="Female">Female
+      <input class="inline" type="radio" name="gender" value="Other">Other
+      <label>Hobbies</label>
+      <input class="inline" type="checkbox" name="hobby" value="Coding">Coding
+      <input class="inline" type="checkbox" name="hobby" value="Reading">Reading
+      <input class="inline" type="checkbox" name="hobby" value="Sports">Sports
+      <label for="course">Course</label><select id="course"><option>BCA</option><option>BBA</option><option>B.Com</option><option>MCA</option></select>
+      <label for="address">Address</label><textarea id="address" rows="4"></textarea>
+      <div class="buttons"><button class="submit" type="submit">Submit</button><button class="reset" type="reset">Reset</button></div>
+    </form>
+  </div>
+</body>
+</html>
+
+<!-- Expected result: A styled student registration form containing text fields, radio buttons, checkboxes, a dropdown list, textarea, submit button, and reset button. -->

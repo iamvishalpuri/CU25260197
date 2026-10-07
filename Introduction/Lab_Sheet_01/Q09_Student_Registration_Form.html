@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Student Registration Form</title></head>
+<body>
+  <h1>Student Registration Form</h1>
+  <form action="#" method="post">
+    <label for="name">Name:</label><input type="text" id="name" name="name" required><br><br>
+    <label for="email">Email:</label><input type="email" id="email" name="email" required><br><br>
+    <label for="password">Password:</label><input type="password" id="password" name="password" required><br><br>
+    <span>Gender:</span>
+    <input type="radio" id="male" name="gender" value="Male"><label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="Female"><label for="female">Female</label><br><br>
+    <label for="dob">Date of Birth:</label><input type="date" id="dob" name="dob"><br><br>
+    <label for="course">Course:</label><select id="course" name="course"><option>BCA</option><option>BBA</option><option>B.Com</option></select><br><br>
+    <span>Hobbies:</span><input type="checkbox" id="coding" name="hobbies" value="Coding"><label for="coding">Coding</label><input type="checkbox" id="reading" name="hobbies" value="Reading"><label for="reading">Reading</label><br><br>
+    <label for="address">Address:</label><br><textarea id="address" name="address" rows="4" cols="40"></textarea><br><br>
+    <input type="submit" value="Submit"><input type="reset" value="Reset">
+  </form>
+</body>
+</html>
+
+<!-- Expected result: A student registration form contains name, email, password, gender, date of birth, course, hobbies, address, and submit/reset buttons. -->
